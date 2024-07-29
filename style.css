@@ -1,0 +1,29 @@
+.container{
+    background-image: linear-gradient(to left, aqua,blue,red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input,h3,button{
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    width: 217px;
+}
+
+button:hover{
+    font-size: 36px;
+    background-color: green;
+    color: white;
+}
+
+h3{
+    font-size: 36px;
+    color: orange;
+    font-family: cursive sans-serif;
+    font-weight: bolder;
+    
+}
